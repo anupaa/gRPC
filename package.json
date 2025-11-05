@@ -1,0 +1,19 @@
+{
+  "name": "basic-gprc",
+  "version": "1.0.0",
+  "description": "Learning the basics of grpc for service to service communications",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Naveen Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.0",
+    "@grpc/proto-loader": "^0.8.0",
+    "D": "^1.0.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
